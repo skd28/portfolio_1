@@ -35,10 +35,11 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Java Software Engineer",
-    location: "Convergenc3, Pretoria",
+    title: "React Software Engineer",
+    location: "Surat, India",
+    // I graduated after 6 months of studying.
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      " I immediately found a job as a front-end developer.",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
@@ -65,7 +66,7 @@ export const projectsData = [
     title: "Social Simulator",
     description:
       "I worked on A Full stack application that simulated social activities and also allowed tracking of movements on maps and real-time communication.",
-    tags: ["Java", "Springboot","Kafka", "Micro-Service", "sockets.io","React", "MongoDB", "Tailwind"],
+    tags: ["C++","React", "Next js","Strapi","Tailwind","Shadcn", "MongoDB","Bootstrap"],
     imageUrl: ss,
   },
   {
@@ -85,27 +86,18 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "Java",
-  "Springboot",
-  "EJB",
-  "JPA",
-  "Hibernate",
-  "JSP",
-  "JavaScript",
-  "TypeScript",
+  "C++",
   "React",
-  "Next.js",
+  "Nextjs",
+  "JavaScript",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+   "Shadcn",
+   "Flowbite",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Postman",
 ] as const;
