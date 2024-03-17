@@ -6,10 +6,12 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import me from "@/public/me.jpeg"
+import me from "@/public/me.jpg"
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { SiCodeforces } from "react-icons/si";
+import { SiLeetcode } from "react-icons/si";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -33,7 +35,7 @@ export default function Intro() {
           >
             <Image
               src={me}
-              alt="Mike portrait"
+              alt="Shivanjal Dwivedi"
               width="192"
               height="192"
               quality="95"
@@ -89,7 +91,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/2023CV.docx"
+          href="/chirag_resume.pdf"
           download
         >
           Download CV{" "}
@@ -109,7 +111,25 @@ export default function Intro() {
           href="https://github.com/skd28"
           target="_blank"
         >
-          <FaGithubSquare />
+            <FaGithubSquare />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://codeforces.com/profile/skd28"
+          target="_blank"
+        >
+
+            <SiCodeforces />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://leetcode.com/skd_28/"
+          target="_blank"
+        >
+        
+          <SiLeetcode />
         </a>
       </motion.div>
     </section>

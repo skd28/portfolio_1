@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import ss from "@/public/ss.jpg";
-import quizzie from "@/public/quizzie.jpg";
-import banking from "@/public/banking.png";
+import sorting from "@/public/sorting.jpg";
+import ndime from "@/public/ndime.jpg";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,53 +35,53 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "React Software Engineer",
+    title: "Fullstack Software Engineer",
     location: "Surat, India",
     // I graduated after 6 months of studying.
     description:
-      " I immediately found a job as a front-end developer.",
+      " I am currenty doing full time job in Root Technologies. My Tech stack includes React, Next,js, MongoDB, Node and Express.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023",
+    date: "2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Maphori Express, Polokwane",
+    title: "Front-end Intern",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working while also studying for my . My stack includes Java, React, TypeScript, Tailwind and MongoDB.",
+      "I did intern in Root Technologies . My stack includes Next.Js, React, TypeScript, Tailwind.",
     icon: React.createElement(FaReact),
-    date: "2018 - 2023",
+    date: "2023-2024",
   },
   {
-    title: "Bsc Computer Science",
-    location: "Univeristy of Limpopo, Polokwane",
-    description: "I studied computer science and graduated in 2022.",
+    title: "B.Tech Computer Science",
+    location: "Lovely Professional University, Jalandhar",
+    description: "I studied computer science and graduated in 2023.",
     icon: React.createElement(CgWorkAlt),
-    date: "2018 - 2022",
+    date: "2019 - 2023",
   },
  
 ] as const;
 
 export const projectsData = [
   {
-    title: "Social Simulator",
+    title: "Shopper",
     description:
-      "I worked on A Full stack application that simulated social activities and also allowed tracking of movements on maps and real-time communication.",
-    tags: ["C++","React", "Next js","Strapi","Tailwind","Shadcn", "MongoDB","Bootstrap"],
+      "It is an Ecommerce Website. I worked on A Full stack application in which admin can have access of add, delete, update products in different categories. Customers can buy different products after adding it into card when logged in.",
+    tags: ["React", "Express","Nodejs","Tailwind", "MongoDB","Bootstrap"],
     imageUrl: ss,
   },
   {
-    title: "Banking Dashboard",
+    title: "5-n-dime",
     description:
-      "This is a banking dashboard that allows users to view their transactions, subscriptions and more.",
-    tags: ["Next.js", "TypeScript", "Next.js", "Tailwind"],
-    imageUrl: banking,
+      "5 & DIME is a webapp 🚀 developed 💻 for connecting ⚓ local shops 🏬 to their regular customers 👨 by online mode 💬 and thus also maintaining social distancing, shops can also put up advertisements 🎉 for offers..",
+    tags: ["Nodejs", "Express", "Javascript", "MongoDB, HTML, CSS"],
+    imageUrl: ndime,
   },
   {
-    title: "Quizzie",
+    title: "Sorting Visualizer",
     description:
-      "This is a quiz application that allows users to create quizzes and share them with their friends.",
-    tags: ["Angular", "firebase", "css", "html"],
-    imageUrl: quizzie,
+      "Sorting.Visualizer is a web app for visualizing a bunch of different sorting algorithms Like Selection Sort, Bubble Sort, Insertion Sort, Merge Sort, Quick Sort, Heap Sort With the functionality of (Speed Control) and (Array Size Control).",
+    tags: ["sorting-algorithms-implemented", "javascript", "css", "html","visualizer"],
+    imageUrl: sorting,
   },
 ] as const;
 
