@@ -68,6 +68,7 @@ export const projectsData = [
       "It is an Ecommerce Website. I worked on A Full stack application in which admin can have access of add, delete, update products in different categories. Customers can buy different products after adding it into card when logged in.",
     tags: ["React", "Express","Nodejs","Tailwind", "MongoDB","Bootstrap"],
     imageUrl: ss,
+    github:"https://github.com/skd28/Shopper",
   },
   {
     title: "5-n-dime",
@@ -75,6 +76,7 @@ export const projectsData = [
       "5 & DIME is a webapp 🚀 developed 💻 for connecting ⚓ local shops 🏬 to their regular customers 👨 by online mode 💬 and thus also maintaining social distancing, shops can also put up advertisements 🎉 for offers..",
     tags: ["Nodejs", "Express", "Javascript", "MongoDB, HTML, CSS"],
     imageUrl: ndime,
+    github:"https://github.com/skd28/5-DIME",
   },
   {
     title: "Sorting Visualizer",
@@ -82,6 +84,7 @@ export const projectsData = [
       "Sorting.Visualizer is a web app for visualizing a bunch of different sorting algorithms Like Selection Sort, Bubble Sort, Insertion Sort, Merge Sort, Quick Sort, Heap Sort With the functionality of (Speed Control) and (Array Size Control).",
     tags: ["sorting-algorithms-implemented", "javascript", "css", "html","visualizer"],
     imageUrl: sorting,
+    github:"https://github.com/skd28/SORTING-VISUALIZER",
   },
 ] as const;
 
